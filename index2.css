@@ -1,0 +1,285 @@
+html{
+    font-size: 20px;
+}
+
+
+/* <!-- HEADER START --> */
+.header{
+    background-image: url("pics/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 810px;
+}
+
+.header-body{
+    width: 5ovw;
+}
+
+.header-font{
+    font-size: 3rem;
+}
+
+.header-player{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.header-btn{
+    width: 195px;
+    height: 48px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ff6d6d;
+    color: white;
+
+}
+.header-btn:hover{
+    background-color:#f6f5f3 ;
+    color: black;
+}
+
+.header-caption{
+    margin-top: 1rem;
+    font-size: 14px;
+} 
+/* <!--/// HEADER END///  --> */
+
+
+
+
+
+
+/* <!-- SECTION2 START --> */
+.section2{
+    height: 725px;
+    background-color: #ffffff;
+}
+
+
+.section2-left{
+    width: 70vw;
+}
+
+.section2-body{
+    width: 50vw;
+}
+
+.section2-p {
+    font-size: 1rem;
+}
+
+.section2-pc{
+    color:#ff6d6d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section2-right{
+    background-image: url("pics/section2.png");
+    width: 30vw;
+}
+
+.section2-h{
+    font-size: 2rem;
+    margin-bottom: 55px;
+}
+/* <!-- ///SECTION2 END/// --> */
+
+
+
+
+
+/* <!-- SECTION3 START --> */
+.section3{
+    height: 675px;
+    background-image: url("pics/section3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3-head{
+    margin-top: 138px;
+}
+
+.section3-h{
+    font-size: 2rem;
+}
+
+.section3-body{
+    margin-top: 95px;
+}
+
+.section3-h2{
+    font-size: 1rem;
+}
+/* <!-- ///SECTION3 END/// --> */
+
+
+
+
+
+
+/* <!-- DESCRIPTION START --> */
+.description{
+    height: 548px;
+    overflow: hidden;
+}
+
+.desc-body{
+    margin-top: 90px;
+}
+
+.desc-img{
+    z-index: -1;
+    top: 300px;
+}
+
+.text-margin{
+    margin-top: 20px;
+}
+/* <!-- ///DESCRIPTON END --> */
+
+
+
+
+
+
+/* <!-- CLIENTS START --> */
+
+.clients{
+    height: 650px;
+    background-image:url("pics/logo-bg.png") ;
+    background-color: black;
+}
+
+.r{
+    margin-top: 110px;
+}
+
+.r2{
+    margin-top: 55px;
+}
+
+
+.client-name{
+    font-size: 1rem;
+    color: white;
+    margin-top: 30px;
+}
+.client-p{
+    font-size: 1rem;
+    color: #ff6d6d;;
+}
+.client-info{
+    font-size:1rem;
+    color: grey
+
+}
+/* <!-- ///CLIENTS END/// --> */
+
+
+
+
+/* <!-- BROWSER START --> */
+.browser{
+    height: 755px;
+    background-color: #f6f5f3;
+}
+/* <!-- ///BROWSER END --> */
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width:640px) and (min-width:300px){
+
+    /* <!-- HEADER START --> */
+    .header-body{
+        width: 100vw;
+    }
+
+    .header-font{
+        font-size: 2rem;
+     } 
+
+     .header-caption{
+        font-size: 1rem;
+    } 
+
+
+
+
+    /* <!-- SECTION2 START --> */
+    .section2{
+        height: auto;
+    }
+
+    .section2-left{
+        width: 100vw;
+    }
+
+    .section2-body{
+        width: 100vw;
+        padding: 5px;
+        background-image: url("pics/section2.png");
+    }
+
+    .section2-right{
+        display: none;
+    }
+
+
+
+    /* <!-- SECTION3 START --> */
+    .section3{
+        
+        height: auto;
+
+    }
+
+    .section3-head{
+        margin-top: 250px;
+    }
+
+    .section3-h{
+        font-size: 1rem;
+    }
+
+
+    /* <!-- DESCRIPTION START --> */
+    .description{
+        height: auto;
+        overflow: hidden;
+    }
+
+    .desc-body{
+        text-align: center;
+    }
+
+    .desc-img2{
+        width: auto;
+        height: 200px;
+    }
+  
+
+    /* <!-- CLIENTS START --> */
+    .clients{
+        height: auto;
+    }
+
+
+
+    
+    /* <!-- BROWSER START --> */
+    .browser{
+        height: auto;
+    }
+
+    .browser-img{
+        width: 350px;
+        height: 200px;
+    }
+}
