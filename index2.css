@@ -283,3 +283,90 @@ html{
         height: 200px;
     }
 }
+
+
+
+
+
+
+
+/* Tablet RESPONSIVE */
+
+@media screen and (max-width:1024px) and (min-width:768px){
+
+    /* <!-- HEADER START --> */
+    .header-body{
+        width: 100vw;
+    }
+
+    .header-font{
+        font-size: 2rem;
+     } 
+
+     .header-caption{
+        font-size: 1rem;
+    } 
+
+
+
+
+    /* <!-- SECTION2 START --> */
+    .section2{
+        height: auto;
+    }
+    .section2-left{
+        padding: 15px;
+    }
+
+
+
+    /* <!-- SECTION3 START --> */
+    .section3{
+        
+        height: auto;
+
+    }
+
+    .section3-head{
+        margin-top: 250px;
+    }
+
+    .section3-h{
+        font-size: 1rem;
+    }
+
+
+    /* <!-- DESCRIPTION START --> */
+    .description{
+        height: auto;
+        overflow: hidden;
+    }
+
+    .desc-body{
+        text-align: center;
+    }
+
+    .desc-img2{
+        width: auto;
+        height: 200px;
+    }
+  
+
+    /* <!-- CLIENTS START --> */
+    .clients{
+        height: auto;
+    }
+
+
+
+    
+    /* <!-- BROWSER START --> */
+    .browser{
+        height: auto;
+    }
+
+    .browser-img{
+        width: 350px;
+        height: 200px;
+    }
+}
